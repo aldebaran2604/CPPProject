@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Modelos">
+      <UniqueIdentifier>{81effcb1-5338-4192-b5b1-a2277ac0e377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Modelos">
+      <UniqueIdentifier>{676b4147-5391-41d8-a97b-b55cc7a7ac96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Enums">
+      <UniqueIdentifier>{1585e781-2095-413a-b6b7-0b0536e19635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Enums">
+      <UniqueIdentifier>{8b0b3fa3-002b-4342-9f9e-33daf5982073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Controladores">
+      <UniqueIdentifier>{b5b4ed10-2fcd-4fe6-a35b-464be637a756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Controladores">
+      <UniqueIdentifier>{3346c9f6-dffe-4bc2-b259-fe14094273b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VentasProductos.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="MUsuario.cpp">
+      <Filter>Archivos de origen\Modelos</Filter>
+    </ClCompile>
+    <ClCompile Include="DateTime.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="EMeses.cpp">
+      <Filter>Archivos de origen\Enums</Filter>
+    </ClCompile>
+    <ClCompile Include="DiaSemana.cpp">
+      <Filter>Archivos de origen\Enums</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MUsuario.h">
+      <Filter>Archivos de encabezado\Modelos</Filter>
+    </ClInclude>
+    <ClInclude Include="DateTime.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="EMeses.h">
+      <Filter>Archivos de encabezado\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="DiaSemana.h">
+      <Filter>Archivos de encabezado\Enums</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
